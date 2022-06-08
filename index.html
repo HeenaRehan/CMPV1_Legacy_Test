@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="preconnect" href="//app.usercentrics.eu">
+    <link rel="preconnect" href="//api.usercentrics.eu">
+    <link rel="preconnect" href="//privacy-proxy.usercentrics.eu">
+    <link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script">
+    <!--Site RELOAD Zustimmung -->
+    <script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
+	
+<script type="application/javascript" src="https://app.usercentrics.eu/latest/bundle_legacy.js" id="egLMgjg9j" async></script>
+	
+	
+<script>
+window.addEventListener("ucConsentsEvent", function (e) {
+    if( e.data.event == "consent_changed"){
+        console.log("consent changed", e.data)
+    }
+});
+	
+</script>
+	
+</head>	
+	
+<body> 
+
+<h1>Usercentrics tech support</h1>
+	<p> CMP V1 Test </p>
+<div class="uc-embed" uc-layout="privacySettings"></div>
+  
+</body>
+</html>
